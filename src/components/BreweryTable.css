@@ -1,0 +1,17 @@
+.breweryTableContainer {
+  margin: auto;
+  border-collapse: collapse;
+  border: 1px solid;
+  
+}
+.breweryTableContainer td {
+  border: 1px solid;
+  padding: 0px 10px;
+}
+.breweryTableContainer thead {
+  background-color: gray;
+  color: white;
+}
+.breweryTableContainer tr {
+  height: 30px;
+}
