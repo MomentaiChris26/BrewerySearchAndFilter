@@ -32,7 +32,7 @@ function App() {
       setFiltered(breweries);
       return;
     }
-    
+
     const handleFilterAndSearch = () => {
       const filteredByState = breweries.filter((f) => {
         return f.state.toLowerCase() === locationFilter.toLowerCase();
@@ -91,7 +91,7 @@ function App() {
 
     return (
       <>
-        <select onChange={handleStateFiltered}>
+        <select onChange={handleStateFiltered} name="filter-by-state">
           <option value={""}>All States</option>
           {states.map((state) => {
             return (
